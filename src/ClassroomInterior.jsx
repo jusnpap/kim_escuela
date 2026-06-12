@@ -63,19 +63,16 @@ export default function ClassroomInterior({ zone, onBack }) {
         >
           <ArrowLeft size={20} /> Volver al Mapa 2D
         </button>
-        <h2 style={{ color: 'white', margin: 0, textShadow: '0 2px 4px rgba(0,0,0,0.5)', fontSize: '24px' }}>
-          Render 3D de Alta Calidad
-        </h2>
       </div>
 
       {/* Visor de Imágenes (Cinematic View) */}
-      <div style={{ flex: 1, position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
+      <div style={{ flex: 1, position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
         <div style={{ position: 'relative', display: 'inline-block' }}>
           <img 
             src={images[currentIndex].src} 
             alt={images[currentIndex].label}
             style={{ 
-              maxWidth: '100%', maxHeight: '75vh', objectFit: 'contain', 
+              maxWidth: '95vw', maxHeight: '90vh', objectFit: 'contain', 
               borderRadius: '16px', boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
               transition: 'opacity 0.4s ease-in-out'
             }}
