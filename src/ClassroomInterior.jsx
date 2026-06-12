@@ -15,6 +15,9 @@ const zoneImages = {
     { src: '/renders/secretaria.png', label: 'Secretaría con Mostrador Accesible' },
     { src: '/renders/sala_docentes.png', label: 'Sala de Docentes y Reuniones' }
   ],
+  entrada: [
+    { src: '/renders/patio_central.png', label: 'Ingreso Principal y Rampa Accesible (Imagen Ilustrativa Temporal)' }
+  ],
   biblioteca_cine: [
     { src: '/renders/biblioteca_inclusiva.png', label: 'Biblioteca Inclusiva y Accesible' },
     { src: '/renders/sala_cine_inclusiva.png', label: 'Sala de Cine con Rampas y Espacios' }
