@@ -16,7 +16,7 @@ const zoneImages = {
     { src: '/renders/sala_docentes.png', label: 'Sala de Docentes y Reuniones' }
   ],
   entrada: [
-    { src: '/renders/patio_central.png', label: 'Ingreso Principal y Rampa Accesible (Imagen Ilustrativa Temporal)' }
+    { src: '/renders/entrada.png', label: 'Ingreso Principal y Rampa Accesible' }
   ],
   biblioteca_cine: [
     { src: '/renders/biblioteca_inclusiva.png', label: 'Biblioteca Inclusiva y Accesible' },
